@@ -1,0 +1,121 @@
+.cuerpo {
+    height: 5020px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+a {
+    color: red;
+}
+
+/*header*/
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: orange;
+    margin-bottom: 20px;
+}
+
+.header-sec-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-logo {
+    width: 16px;
+    height: 16px;
+}
+
+.header-name {
+    width: max-content;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+.ul-nav-sec-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: max-content;
+    height: 19px;
+}
+
+/*main*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.main-sec-presentacion {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background: blue;
+}
+
+.main-sec-presentacion-links {
+    display: flex;
+    gap: 10px;
+}
+
+.img-presen {
+    width: 210px;
+    height: 210px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.main-sec-Sobre-mi {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+    height: 250px;
+    background: blueviolet;
+}
+
+.main-sec-Skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-Skills {
+    display: flex;
+    flex-direction: row;
+    color: blue;
+    gap: 8px;
+}
+
+.div-div-Skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+
+    width: 100px;
+    height: 100px;
+
+    /* Preto/branco */
+
+    background: #ffffff2c;
+}
+
+.ul-Skills {
+    padding: 0px;
+    margin: 0px;
+}
