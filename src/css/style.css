@@ -90,6 +90,7 @@ ul {
 .main-sec-Skills {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .div-Skills {
@@ -106,16 +107,73 @@ ul {
     align-items: flex-start;
     padding: 16px;
     gap: 8px;
-
     width: 100px;
     height: 100px;
-
-    /* Preto/branco */
-
     background: #ffffff2c;
 }
 
 .ul-Skills {
     padding: 0px;
     margin: 0px;
+}
+
+.main-sec-Proyec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+}
+
+.div-proyectos {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+}
+
+.div-proyec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+.img-proyec {
+    width: 752px;
+    height: 406px;
+}
+
+.link-repo {
+    box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+	background-color:#77d42a;
+	border-radius:6px;
+	border:1px solid #268a16;
+	display:inline-block;
+	cursor:pointer;
+	color:#306108;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #aade7c;
+}
+
+.link-demo {
+    box-shadow:inset 0px 1px 0px 0px #fbfcfa;
+	background:linear-gradient(to bottom, #dedfdd 5%, #b4b4b3 100%);
+	background-color:#d4d4d4;
+	border-radius:6px;
+	border:1px solid #8b8b8b;
+	display:inline-block;
+	cursor:pointer;
+	color:#565756;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e6e7e5;
 }
